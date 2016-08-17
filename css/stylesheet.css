@@ -1,0 +1,72 @@
+.navbar-default{
+	background-color:#f9f9f9;
+	  border-color: #e7e7e7;
+    margin-bottom: 0;
+    border: none;
+}
+#bs-example-navbar-collapse-1{
+	padding-top:21px;
+}
+
+/*.navbar{
+	min-height:115px;
+   }
+
+    .navbar-brand {
+	padding: 0 15px; 
+	height: 115px; 
+	line-height: 115px;
+	}
+ */
+
+ /* banner background --> */
+.banner-bg{
+/*	background-image:url("img/indian-food.jpg");*/
+	background-size:cover; 
+	text-align:center;
+	 height: 266px;
+}
+
+/*@media(max-width:767px){
+	.img-responsive{
+		   
+		max-width: 30%;
+		min-width:300px;
+	}
+}*/
+
+.zoom:hover,  
+.zoom:active,   
+.zoom:focus {
+/**adjust scale to desired size, 
+add browser prefixes**/
+-ms-transform: scale(2.5);    
+-moz-transform: scale(2.5);  
+-webkit-transform: scale(2.5);  
+-o-transform: scale(2.5);  
+transform: scale(2.5);    
+position:relative;      
+z-index:100;  
+}
+
+/**To keep upscaled images visible on mobile, 
+increase left & right margins a bit**/  
+@media only screen and (max-width: 768px) {   
+ul.gallery {      
+margin-left: 15vw;       
+margin-right: 15vw;
+}
+
+/**TIP: Easy escape for touch screens,
+give gallery's parent container a cursor: pointer.**/
+.DivName {cursor: pointer}
+}
+
+
+
+.footer{
+	background-repeat: no-repeat;
+    background-size: cover;
+     text-align:center;
+	 height: 200px;
+}
